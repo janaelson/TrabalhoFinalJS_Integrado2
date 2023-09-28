@@ -1,0 +1,196 @@
+body {
+
+    min-height: 100vh;
+    text-align: center;
+    
+    font-weight: 900;
+
+}
+
+#logo {
+
+    width: 10%;
+    height: auto;
+    max-width: 20%;
+    margin-right: 80%;
+
+}
+
+#container-maior {
+
+
+    width: 100%;
+    display: flex;
+
+}
+
+.container2 {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.modal-content {
+
+    border-radius: 3.5%;
+    margin-bottom: -2%;
+    margin-top: 15%;
+
+}
+
+.btn-primary {
+
+    color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
+    border: 1px solid var(--cor-secundaria);
+    font-weight: 900;
+    width: 200px;
+    box-sizing: border-box;
+
+}
+
+.botao-cadastrar {
+
+    margin-top: 10px;
+    background-color: var(--corbuttonConcluir);
+    color: var(--cor-secundaria);
+    width: 50%;
+    margin-right: 50%;
+
+}
+
+.botao-cadastrar:hover {
+
+    cursor: pointer;
+    background-color: var(--corbuttonConcluirHover);
+    color: var(--cor-secundaria);
+
+}
+
+.row {
+
+    margin: 1px 1px 1px 1px;
+
+}
+
+input {
+
+    margin-top: 3%;
+    
+}
+
+input#nome, #confirmarSenha, #senha , #email {
+
+
+    background-color: var(--cor-secundaria);
+}
+
+ input#nome {
+
+    margin-top: -2%;
+    
+}
+
+ input#confirmarSenha {
+
+    margin-bottom: 2%;
+}  
+
+h4 {
+
+    margin-left: 18%;
+    font-weight: 800;
+    color: var(--corbuttonConcluir);
+}
+
+.modal-content {
+
+    background-color: var(--cor-modalback);
+
+}
+
+.olho {
+    margin-top: -6%;
+    cursor: pointer;
+    right: 0.5%;
+    position: absolute;
+    width: 23px;
+
+}
+
+.olho2 {
+    margin-top: -8%;
+    cursor: pointer;
+    right: 0.5%;
+    position: absolute;
+    width: 23px;
+
+}
+
+div img, #olho {
+
+    border: 1px solid var(--cor-secundaria);
+    background-color: var(--cor-secundaria);
+    border-radius: 50px;
+}
+
+.botao-fechar {
+
+    margin-top: -40px;
+    color: var(--cor-buttonClose);
+    background-color: var(--cor-secundaria);
+    margin-right: 11%;
+    width: 30%;
+
+}
+
+.botao-fechar:hover {
+
+
+    cursor: pointer;
+    background-color: var(--cor-borda);
+    color: var(--cor-buttonClose);
+
+}
+
+
+
+@media screen and (min-width: 0px) and (max-width: 399px) {
+
+
+    .botao-fechar {
+        margin-top: -18.5%;
+        background-color: var(--cor-borda);
+        margin-right: 11%;
+        box-sizing: border-box;
+
+    }
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 480px) {
+
+
+    .botao-fechar {
+        margin-top: -12.5%;
+        background-color: var(--cor-borda);
+        margin-right: 11%;
+        box-sizing: border-box;
+
+    }
+
+}
+
+p {
+    font-weight: 900;
+
+}
+
+#buttonDiv {
+    display: flex;
+    justify-content: center;
+}
+

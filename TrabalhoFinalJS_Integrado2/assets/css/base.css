@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/*css reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+:root {
+
+    --cor-primariaBack: #52719e;
+    --cor-primaria: #201b;
+    --cor-secundaria: #fff;
+    --cor-borda: #ddd;
+    --cor-button: #00b4fb8a;
+    --cor-buttonClose: #fb00008a;
+    --cor-modalback: #2f2841;
+    --corbuttonConcluir: #00ff88;
+    --corbuttonConcluirHover: #77ffc7;
+    
+    
+
+}
